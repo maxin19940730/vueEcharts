@@ -4,7 +4,7 @@
     <el-col :span="12" >
       <el-card class="box-card">
         <div slot="header">
-          <span>卡片名称</span>
+          <span>配置页面</span>
           <el-button type="primary" @click="changeCode" class="button">保存</el-button>
         </div>
         <el-input type="textarea" v-model="code"  class="optionText" style=""></el-input>
